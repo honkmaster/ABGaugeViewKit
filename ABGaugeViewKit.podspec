@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
           #6.
           s.author               = "Ajay Bhanushali"
           #7.
-          s.platform            = :ios, "11.0"
+          s.ios.deployment_target = '11.0'
+          s.tvos.deployment_target = '11.0'
           #8.
           s.source              = { :git => "https://github.com/AjayBhanushali/ABGaugeViewKit.git", :tag => "1.0.1" }
           #9.
